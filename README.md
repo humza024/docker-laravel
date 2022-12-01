@@ -12,3 +12,12 @@ sudo chown -R www-data.www-data storage
 
 sudo chown -R www-data.www-data /bootstrap/cache
 
+sudo docker-compose up -d
+
+docker-compose exec app bash
+
+php artisan key:generate
+
+php artisan config:cache
+
+Access:- http://IP or localhost
