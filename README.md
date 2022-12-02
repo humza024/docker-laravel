@@ -25,5 +25,6 @@ Access:- http://IP or localhost
 For already created project database migration , create user , database , privilges.
 
 > php artisan storage:link
+
 > php artisan migrate:fresh --seed
 
