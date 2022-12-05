@@ -10,7 +10,7 @@ sudo chown -R $USER:$USER ~/docker-laravel
 
 sudo chown -R www-data.www-data storage
 
-sudo chown -R www-data.www-data /bootstrap/cache
+sudo chown -R www-data.www-data bootstrap/cache
 
 sudo docker-compose up -d
 
